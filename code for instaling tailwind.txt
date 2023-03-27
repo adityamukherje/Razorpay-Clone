@@ -1,0 +1,24 @@
+In terminal:
+
+
+npm install -D tailwindcss postcss autoprefixer vite
+npx tailwindcss init -p
+
+
+package.jason:
+"scripts": {
+    "start": "vite"
+  },
+
+
+taiwind.config:
+content: ["*"],
+
+main.css:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+run the file:
+npm run start
